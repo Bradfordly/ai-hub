@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ai-hub",
+  "owner": { "name": "Bradfordly", "url": "https://github.com/Bradfordly" },
+  "description": "Bradfordly's personal hub of agents, skills, and rules.",
+  "allowCrossMarketplaceDependenciesOn": ["claude-plugins-official"],
+  "plugins": [
+    {
+      "name": "ai-hub",
+      "source": "./",
+      "description": "Agents (architect, code-reviewer, docs-writer, security-reviewer) and rule skills, built on mattpocock-skills.",
+      "category": "engineering"
+    }
+  ]
+}

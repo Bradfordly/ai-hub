@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "ai-hub",
+  "version": "0.1.0",
+  "description": "Bradfordly's agents, skills, and rules for spec-driven, AI-assisted engineering.",
+  "author": { "name": "Bradfordly", "url": "https://github.com/Bradfordly" },
+  "repository": "https://github.com/Bradfordly/ai-hub",
+  "license": "MIT",
+  "keywords": ["agents", "skills", "rules", "code-review", "architecture", "security"],
+  "skills": ["./rules/"],
+  "dependencies": [
+    { "name": "mattpocock-skills", "marketplace": "claude-plugins-official" }
+  ]
+}
